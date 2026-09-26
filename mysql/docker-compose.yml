@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   mysql:
-    image: yishuihang/mysql-server-5.8
+    image: mysql:8.0
     container_name: mysql-server
     ports:
       - "3306:3306"
